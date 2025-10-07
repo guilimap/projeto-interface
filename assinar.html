@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assinar Newsletter - Habit</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo">HABIT</a>
+            <nav class="main-nav" aria-label="Navegação principal">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#">Páginas</a></li>
+                    <li><a href="destaques.html">Destaques</a></li>
+                    <li><a href="assinar.html">Assinar</a></li>
+                    <li><a href="admin.html">Admin</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <form class="search-form" role="search">
+                    <label for="search-input" class="sr-only">Buscar no site</label>
+                    <input type="search" id="search-input" placeholder="Buscar...">
+                    <button type="submit" class="btn btn-secondary">Buscar</button>
+                </form>
+                <a href="entrar.html" class="btn btn-primary">Entrar</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-centered">
+        <section class="newsletter-form-section" aria-labelledby="newsletter-title">
+            <div class="form-container">
+                <h1 id="newsletter-title">Assine a newsletter</h1>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="consent" name="consent" required>
+                        <label for="consent">Concordo em receber comunicações e li a <a href="#">política de privacidade</a>.</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Assinar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="tag-list">
+                <a href="#" class="tag">Instagram</a>
+                <a href="#" class="tag">Work</a>
+                <a href="#" class="tag">Bags</a>
+                <a href="#" class="tag">Lamp</a>
+                <a href="#" class="tag">Books</a>
+            </div>
+            <p class="copyright">&copy; 2025 Meu Site • Meu site</p>
+        </div>
+    </footer>
+
+</body>
+</html>

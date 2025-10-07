@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - Habit</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo">HABIT</a>
+            <nav class="main-nav" aria-label="Navegação principal">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#">Páginas</a></li>
+                    <li><a href="destaques.html">Destaques</a></li>
+                    <li><a href="assinar.html">Assinar</a></li>
+                    <li><a href="admin.html">Admin</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <form class="search-form" role="search">
+                    <label for="search-input" class="sr-only">Buscar no site</label>
+                    <input type="search" id="search-input" placeholder="Buscar...">
+                    <button type="submit" class="btn btn-secondary">Buscar</button>
+                </form>
+                <a href="entrar.html" class="btn btn-primary">Entrar</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="profile-page">
+        <div class="container profile-layout">
+            <aside class="profile-form-container">
+                <h2>Perfil</h2>
+                <form action="#" method="POST">
+                    <div class="profile-picture-placeholder" aria-label="Foto de perfil atual"></div>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="bio">Bio</label>
+                        <textarea id="bio" name="bio" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Salvar</button>
+                </form>
+            </aside>
+    
+            <section class="user-posts-container" aria-labelledby="user-posts-title">
+                <h2 id="user-posts-title">Suas Postagens</h2>
+                <div class="user-posts-list">
+                    <article class="post-card">
+                        <img src="assets/placeholder-small.png" alt="">
+                        <div class="post-content">
+                            <p class="post-meta">Rascunho</p>
+                            <h3><a href="#">Post 1</a></h3>
+                        </div>
+                    </article>
+                    <article class="post-card">
+                        <img src="assets/placeholder-small.png" alt="">
+                        <div class="post-content">
+                            <p class="post-meta">Publicado</p>
+                            <h3><a href="#">Post 2</a></h3>
+                        </div>
+                    </article>
+                    <article class="post-card">
+                        <img src="assets/placeholder-small.png" alt="">
+                        <div class="post-content">
+                            <p class="post-meta">Em análise</p>
+                            <h3><a href="#">Comentário 1</a></h3>
+                        </div>
+                    </article>
+                    <article class="post-card">
+                        <img src="assets/placeholder-small.png" alt="">
+                        <div class="post-content">
+                            <p class="post-meta">Publicado</p>
+                            <h3><a href="#">Comentário 2</a></h3>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="tag-list">
+                <a href="#" class="tag">Instagram</a>
+                <a href="#" class="tag">Work</a>
+                <a href="#" class="tag">Bags</a>
+                <a href="#" class="tag">Lamp</a>
+                <a href="#" class="tag">Books</a>
+            </div>
+            <p class="copyright">&copy; 2025 Meu Site • Meu site</p>
+        </div>
+    </footer>
+
+</body>
+</html>

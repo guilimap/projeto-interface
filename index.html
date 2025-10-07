@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo">HABIT</a>
+            <nav class="main-nav" aria-label="Navegação principal">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#">Páginas</a></li>
+                    <li><a href="destaques.html">Destaques</a></li>
+                    <li><a href="assinar.html">Assinar</a></li>
+                    <li><a href="admin.html">Admin</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <form class="search-form" role="search">
+                    <label for="search-input" class="sr-only">Buscar no site</label>
+                    <input type="search" id="search-input" placeholder="Buscar...">
+                    <button type="submit" class="btn btn-secondary">Buscar</button>
+                </form>
+                <a href="entrar.html" class="btn btn-primary">Entrar</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 id="hero-title">Navegue por tópicos de interesse</h1>
+                    <p>Descubra conteúdos por categorias, posts em destaque e as escolhas do editor.</p>
+                    <div class="hero-actions">
+                        <a href="listagem.html" class="btn btn-primary">Explorar categorias</a>
+                        <a href="assinar.html" class="btn btn-secondary">Assine a newsletter</a>
+                    </div>
+                </div>
+                <div class="hero-image-placeholder">
+                </div>
+            </div>
+        </section>
+
+        <section class="popular-categories" aria-labelledby="popular-categories-title">
+            <div class="container">
+                <h2 id="popular-categories-title">Categorias Populares</h2>
+                <div class="category-grid-popular">
+                    <a href="listagem.html" class="category-card"><h3>Work</h3></a>
+                    <a href="listagem.html" class="category-card"><h3>Books</h3></a>
+                    <a href="listagem.html" class="category-card"><h3>Techno</h3></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="all-categories" aria-labelledby="all-categories-title">
+            <div class="container">
+                <h2 id="all-categories-title">Todas as Categorias</h2>
+                <div class="tag-list">
+                    <a href="#" class="tag">Negócios</a>
+                    <a href="#" class="tag">Techno</a>
+                    <a href="#" class="tag">Produtividade</a>
+                    <a href="#" class="tag">Filmes</a>
+                    <a href="#" class="tag">Lifestyle</a>
+                    <a href="#" class="tag">Educação</a>
+                    <a href="#" class="tag">Mailing</a>
+                    <a href="#" class="tag">eCommerce</a>
+                    <a href="#" class="tag">Alimentação</a>
+                    <a href="#" class="tag">Social</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="container content-area">
+            <section class="featured-posts" aria-labelledby="featured-posts-title">
+                <h2 id="featured-posts-title">Postagens em Destaque</h2>
+                <article class="post-card">
+                    <img src="assets/placeholder-small.png" alt="Ilustração abstrata representando design.">
+                    <div class="post-content">
+                        <p class="post-meta">31 Jul 2025 • Destaque</p>
+                        <h3><a href="#">Erros de Design que Todos Devem Evitar</a></h3>
+                        <span class="reading-time">3 min de leitura</span>
+                    </div>
+                </article>
+                <article class="post-card">
+                    <img src="assets/placeholder-small.png" alt="Gráfico de barras estilizado simbolizando receita.">
+                    <div class="post-content">
+                        <p class="post-meta">31 Jul 2025 • Destaque</p>
+                        <h3><a href="#">As Maiores Empresas por Receita</a></h3>
+                    </div>
+                </article>
+            </section>
+    
+            <aside class="editor-picks" aria-labelledby="editor-picks-title">
+                <h2 id="editor-picks-title">Escolhas do Editor</h2>
+                <ul>
+                    <li><a href="#">O uso negativo da internet</a></li>
+                    <li><a href="#">O segredo do brainstorm</a></li>
+                    <li><a href="#">Escalar para pequenos negócios</a></li>
+                    <li><a href="#">O futuro do trabalho remoto</a></li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="tag-list">
+                <a href="#" class="tag">Instagram</a>
+                <a href="#" class="tag">Work</a>
+                <a href="#" class="tag">Bags</a>
+                <a href="#" class="tag">Lamp</a>
+                <a href="#" class="tag">Books</a>
+            </div>
+            <p class="copyright">&copy; 2025 Meu Site • Meu site</p>
+        </div>
+    </footer>
+
+</body>
+</html>

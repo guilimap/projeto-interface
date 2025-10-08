@@ -650,7 +650,6 @@ main {
   }
 }
 
-
 @media (min-width: 992px) {
   .post-grid {
     grid-template-columns: repeat(3, 1fr);
